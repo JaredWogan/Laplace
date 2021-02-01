@@ -20,8 +20,7 @@ Vright = 0
 Vguess = 25
 
 # Set colour interpolation and colour map.
-# You can try set it to 10, or 100 to see the difference
-# You can also try: colourMap = plt.cm.coolwarm
+# colourMap = plt.cm.coolwarm
 colorinterpolation = 50
 colourMap = plt.cm.jet
 
@@ -56,7 +55,7 @@ plt.contourf(X, Y, V, colorinterpolation, cmap=colourMap)
 # Set Colorbar
 plt.colorbar()
 
-# Show the result in the plot window
+# Show the plot
 plt.grid()
 plt.show()
 plt.savefig('Laplace1.png')
