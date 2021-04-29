@@ -33,7 +33,7 @@ V.fill(Vguess)
 
 # Set Boundary condition
 V[:1, :] = Vtop
-V[(LenY-1):, :] = Vbottom
+V[(lenY-1):, :] = Vbottom
 V[:, (lenX-1):] = Vright
 V[:, :1] = Vleft
 
